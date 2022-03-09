@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package org.jag.springboot.controller;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.javaguides.springboot.entity.User;
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.repository.UserRepository;
+import org.jag.springboot.entity.User;
+import org.jag.springboot.exception.ResourceNotFoundException;
+import org.jag.springboot.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/users")

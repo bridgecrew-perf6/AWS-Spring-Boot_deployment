@@ -1,4 +1,4 @@
-package net.javaguides.springboot.exception;
+package org.jag.springboot.exception;
 
 import java.util.Date;
 
